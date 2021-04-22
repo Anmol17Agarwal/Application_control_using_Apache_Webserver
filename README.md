@@ -48,18 +48,13 @@ cd ~/wiringPi
 ```
 ### Install Websever
 
-Install Apache web server using following commands:
+- Install Apache web server using following commands:
 ```
 sudo apt-get install apache2
 ```
-Now, install the apache2 package by using this command command in terminal:
-
-```
+- Now, install the apache2 package by using this command command in terminal:
 ```
 sudo apt-get install php libapache2-mod-php
 ```
-
-- To check server is working or not, search ip address of your raspberry pi.
-- By default, Apache puts a test HTML file in the web folder. This default web page is served when you browse to http://192.168.0.103 (whatever the Pi's IP address is) from another computer on the network.
 
 
