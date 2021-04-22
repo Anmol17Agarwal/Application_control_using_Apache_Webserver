@@ -57,7 +57,16 @@ sudo apt-get install apache2
 sudo apt-get install php libapache2-mod-php
 ```
 
+Now, run the following command to run HTML page and Paste gpio.php file inside the directory.
+```
+Sudo chown pi: /var/www/html
+```
+
 - To check server is working or not, search ip address of your raspberry pi.
-- By default, Apache puts a test HTML file in the web folder. This default web page is served when you browse to http://192.168.0.103 (whatever the Pi's IP address is) from another computer on the network.
+- By default, Apache puts a test HTML file in the web folder. This default web page is served when you browse to http://192.168.1.19 (whatever the Pi's IP address is) from another computer on the network.
 
 
+![alt text](https://github.com/Anmol17Agarwal/Application_control_using_Apache_Webserver/blob/main/Webserver.png)
+
+If this webpage opens which means server is working.
+Now run in browser http://192.168.1.19/gpio.php
