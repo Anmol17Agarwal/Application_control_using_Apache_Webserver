@@ -57,4 +57,7 @@ sudo apt-get install apache2
 sudo apt-get install php libapache2-mod-php
 ```
 
+- To check server is working or not, search ip address of your raspberry pi.
+- By default, Apache puts a test HTML file in the web folder. This default web page is served when you browse to http://192.168.0.103 (whatever the Pi's IP address is) from another computer on the network.
+
 
