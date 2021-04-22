@@ -70,3 +70,22 @@ Sudo chown pi: /var/www/html
 
 If this webpage opens which means server is working.
 Now run in browser http://192.168.1.19/gpio.php
+This page will open
+
+![alt text](https://github.com/Anmol17Agarwal/Application_control_using_Apache_Webserver/blob/main/HTML%20page.png)
+
+PHP code is running in backend, try to have look by opening gpio.php file.
+- **It you press Turn On, server will send information to RPi and it will turn LED on and show notification "Turning Light On".**
+- **It you press Turn Off, server will send information to RPi and it will turn LED off and show notification "Turning Light Off.**
+
+### TECH News
+
+##### Amazon’s Ring now reportedly partners with more than 2,000 US police and fire departments
+All but two US states — Montana and Wyoming— now have police or fire departments participating in Amazon’s Ring network, which lets law enforcement ask users for footage from their Ring security cameras to assist with investigations, the Financial Times reported, Figures from Ring show more than 1,189 departments joined the program in 2020 for a total of 2,014. That’s up sharply from 703 departments in 2019 and just 40 in 2018. The FT reports that local law enforcement departments on the platform asked for Ring videos for a total of more than 22,335 incidents in 2020.
+
+- **“Don’t confuse schooling with education. I didn’t go to Harvard but the people that work for me did ”-Elon Musk**
+
+
+
+
+
